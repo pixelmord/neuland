@@ -1,7 +1,9 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "@pixelmord/neuland",
+  "description": "Travel Log application",
   "version": "0.0.1",
+  "license": "MIT",
+  "author": "Andreas Adam <andreas.sahle@gmail.com>",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
