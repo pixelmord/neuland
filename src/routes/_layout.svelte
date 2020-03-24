@@ -1,4 +1,5 @@
-<style>
+<style lang="scss" global>
+  @import '../prestyled/style/global.scss';
   main {
     position: relative;
     max-width: 56em;
