@@ -1,9 +1,9 @@
 {
   "name": "@pixelmord/neuland",
   "description": "Travel Log application",
-  "version": "0.0.1",
+  "version": "0.0.0-semantically-released",
   "license": "MIT",
-  "author": "Andreas Adam <andreas.sahle@gmail.com>",
+  "author": "Andreas Adam <andreas.sahle@gmail.com> (https://pixelmord.de)",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
