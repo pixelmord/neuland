@@ -1,5 +1,10 @@
-<style>
+<style lang="scss">
+  @import '../prestyled/style/_variables.scss';
   nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: $colors-white;
     border-bottom: 1px solid rgba(255, 62, 0, 0.1);
     font-weight: 300;
     padding: 0 1em;
