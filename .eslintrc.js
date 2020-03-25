@@ -18,6 +18,7 @@ module.exports = {
   globals: {
     module: true,
     process: true,
+    mapboxgl: true,
   },
   rules: {
   },
