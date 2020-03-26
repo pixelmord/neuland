@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', "plugin:cypress/recommended"],
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',
@@ -7,8 +7,9 @@ module.exports = {
   env: {
     es6: true,
     browser: true,
+    "cypress/globals": true,
   },
-  plugins: ['svelte3'],
+  plugins: ['svelte3', 'cypress'],
   overrides: [
     {
       files: ['**/*.svelte'],

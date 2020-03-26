@@ -3,8 +3,8 @@ describe('Sapper template app', () => {
     cy.visit('/');
   });
 
-  it('has the correct <h1>', () => {
-    cy.contains('h1', 'Great success!');
+  it('has the map container', () => {
+    cy.get('#map');
   });
 
   it('navigates to /about', () => {

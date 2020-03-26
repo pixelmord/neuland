@@ -19,9 +19,7 @@ const preprocess = sveltePreprocess({
     includePaths: ['src'],
   },
   postcss: {
-    plugins: [autoprefixer({
-      browsers: 'last 2 versions',
-    })],
+    plugins: [autoprefixer()],
   },
   // ...
 });
