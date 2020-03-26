@@ -4,14 +4,6 @@ on:
     branches:
       - master
 jobs:
-  cypress-run:
-    # let's make sure our tests pass on Chrome browser
-    name: E2E on Chrome
-    steps:
-      - uses: actions/checkout@v1
-      - uses: cypress-io/github-action@v1
-        with:
-          browser: chrome
   release:
     name: Release
     runs-on: ubuntu-latest
@@ -34,6 +26,8 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install Node Dependencies
         run: yarn install --frozen-lockfile # will run `yarn install` command
+      - name: Run Test
+        run: yarn test
       - name: Do Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
