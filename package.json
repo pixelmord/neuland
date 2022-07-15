@@ -96,7 +96,7 @@
     "sapper": "^0.27.0",
     "semantic-release": "^17.0.4",
     "style-dictionary": "^2.8.3",
-    "svelte": "^3.0.0",
+    "svelte": "^3.49.0",
     "svelte-preprocess": "^3.5.0"
   }
 }
